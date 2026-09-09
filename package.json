@@ -1,0 +1,9 @@
+{
+  "name": "repair-log",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "api": "node server/index.js", "dev:full": "concurrently \"npm:api\" \"npm:dev\"", "build": "tsc -b && vite build", "preview": "vite preview" },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest", "fastify": "latest", "@fastify/cors": "latest", "@fastify/cookie": "latest", "@fastify/static": "latest", "bcryptjs": "latest", "jsonwebtoken": "latest", "nanoid": "latest", "concurrently": "latest" },
+  "devDependencies": { "@types/react": "latest", "@types/react-dom": "latest" }
+}
